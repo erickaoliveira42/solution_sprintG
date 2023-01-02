@@ -18,6 +18,4 @@ Obs.: a execução da API leva quase 6hrs.
 
 7 - Voltando ao 2 passo, dentro do diretório "dataset", carregar os diretórios presentes em "solution_sprintG\Projeto\datasetKaggle" (já contém o dataset atualizado com a geolocalização). Desta forma, todos os datasets estarão no HDFS.
 
-8 - Ainda no HUE, localize "Documents" e clique. No ícone com três pontos em vertical, escolher a opção import. Abrirá uma caixinha para escolher o Json. Carregue o Json presente no diretório "solution_sprintG\DDLs". Você terá todas as DDLs das para criar no HIVE.
-
-9 - Por fim, com as tabelas criadas, apenas realizar as consultas. No diretótio "solution_sprintG\Projeto\Extração", há uma extração completa a ser usada no tableau para criação do dashboard.
+8 - Ainda no HUE, localize "Documents" e clique. No ícone com três pontos em vertical, escolher a opção import. Abrirá uma caixinha para escolher o Json. Carregue o Json presente no diretório "solution_sprintG\DDLs". Você terá todas as DDLs das para criar no HIVE e queries para extração de dados conforme previsto na solution sprint.
