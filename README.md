@@ -14,10 +14,10 @@ Obs.: a execução da API leva quase 6hrs.
 
 5 - Após finalizar a API, execute o arquivo "Merge_dataset.ipynb" (local: solution_sprintG\Projeto\Python), também no google colab, para que seja realizado o merge entre os datasets.
 
-6 - Baixe os dois arquivos após finalizar a execução. Obs.: os arquivos já estão presentes no diretório "solution_sprintG\Projeto\updt_dataset"
+6 - Baixe os dois arquivos após finalizar a execução. Obs.: os arquivos já estão presentes no diretório "solution_sprintG\Projeto\datasetUpdate"
 
-7 - Voltando ao 2 passo, dentro do diretório "dataset", carregar os diretórios presentes em "solution_sprintG\Projeto\datasetKaggle" (já contém o dataset atualizado com a geolocalização). Desta forma, todos os datasets estarão no HDFS.
+7 - Voltando ao 2 passo, dentro do diretório "dataset", carregar os diretórios presentes em "solution_sprintG\Projeto\datasetKaggle" para o HDFS.
 
-8 - Ainda no HUE, localize "Documents" e clique. No ícone com três pontos em vertical, escolher a opção import. Abrirá uma caixinha para escolher o Json. Carregue o Json presente no diretório "solution_sprintG\DDLs". Você terá todas as DDLs das para criar no HIVE.
+8 - No diretório "geolocation", dentro do HUE, excluir o arquivo existente e importar o arquivo "olist_geolocation_dataset_updt.csv" do diretório "solution_sprintG\Projeto\datasetUpdate", que contém a geolocalização atualizada.
 
-9 - Por fim, com as tabelas criadas, apenas realizar as consultas. No diretótio "solution_sprintG\Projeto\Extração", há uma extração completa a ser usada no tableau para criação do dashboard.
+9 - Ainda no HUE, localize "Documents" e clique. No ícone com três pontos em vertical, escolher a opção import. Abrirá uma caixinha para escolher o Json. Carregue o Json presente no diretório "solution_sprintG\DDLs". Você terá todas as DDLs das para criar no HIVE e queries para extração de dados conforme previsto na solution sprint.
